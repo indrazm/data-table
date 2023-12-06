@@ -1,5 +1,5 @@
-'use client';
+import { TableComponent } from '@/components/table';
 
 export default function Page() {
-  return <div>Hello!</div>;
+  return <TableComponent />;
 }
